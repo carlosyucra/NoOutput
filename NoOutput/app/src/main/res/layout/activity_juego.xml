@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<games.bcar.nooutput.JuegoGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/juegoVista"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+        <games.bcar.nooutput.Laberinto
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/laberinto"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <games.bcar.nooutput.Movimiento
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/movimiento"
+                android:background="#0F263636"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</games.bcar.nooutput.JuegoGroup>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<games.bcar.nooutput.MenuGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:id="@+id/todo">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:id="@+id/fondo"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VELOCIDAD DEL VIDEOJUEGO: "
+        android:id="@+id/text"
+        android:textColor="#ffffff"/>
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#0000ff"
+        android:layout_alignRight="@id/fondo"
+        android:layout_marginRight="10dp"
+        android:text="2"/>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/guardar"
+        android:text="GUARDAR"
+        android:layout_centerHorizontal="true"
+        android:layout_alignBottom="@+id/fondo"
+        />
+</RelativeLayout>
+</games.bcar.nooutput.MenuGroup>
